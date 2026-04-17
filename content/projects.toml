@@ -1,0 +1,38 @@
+type = "card"
+title = "Projects"
+description = "Selected projects showcasing market research, analytics and AI-assisted marketing thinking."
+
+[[items]]
+title = "The Ordinary Consumer Semantic Gap Analysis"
+subtitle = "MSc Project · Core Analyst"
+date = "2026"
+content = """
+- Collected and cleaned 35,934 Sephora reviews for consumer-voice analysis.
+- Applied Sentence Transformer to quantify semantic gaps between official claims and user perception.
+- Used BERTopic to identify high-impact pain points such as pilling and breakout-related concerns.
+- Delivered a strategy report with data visuals and actionable content/KOL recommendations.
+"""
+tags = ["Market Research", "NLP", "Consumer Insight"]
+
+[[items]]
+title = "AI-Assisted Marketing Agent Workflow Design"
+subtitle = "MSc Project · Product/Prompt Design"
+date = "2026"
+content = """
+- Designed an agent workflow for campaign ideation, content planning and copy refinement.
+- Structured task decomposition from audience insight to channel-specific content drafts.
+- Defined evaluation checkpoints for message consistency, brand tone and conversion relevance.
+- Produced a reusable workflow framework for faster cross-channel campaign iteration.
+"""
+tags = ["AI Agent", "Workflow Design", "Marketing Ops"]
+
+[[items]]
+title = "KOL Performance Evaluation Framework"
+subtitle = "Internship Practice"
+date = "2023-2024"
+content = """
+- Built a practical KOL scoring lens using CPM/CPE and funnel-oriented indicators.
+- Supported creator selection and optimization across 50+ collaboration cases.
+- Connected influencer performance data with brief iteration and campaign objective alignment.
+"""
+tags = ["KOL", "Performance Marketing", "Data Analysis"]

@@ -1,0 +1,40 @@
+[site]
+title = "罗雅颖 Sandy"
+description = "面向市场研究与广告营销岗位的个人主页。"
+last_updated = "2026年4月17日"
+
+[author]
+name = "罗雅颖（Sandy）"
+title = "市场研究 / 广告营销方向\n职位状态：求职中"
+institution = "University of Bristol（布里斯托大学）"
+avatar = "/avatar.png"
+
+[social]
+email = "luoyaying43@gmail.com"
+location = "Guangdong, China"
+github = "https://github.com/Sandy-LYY"
+linkedin = "https://www.linkedin.com/in/雅颖-罗-3b4443404"
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "实习与经历"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "项目"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

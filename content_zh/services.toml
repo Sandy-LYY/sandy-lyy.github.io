@@ -1,0 +1,10 @@
+type = "card"
+title = "服务"
+description = "（可选）审稿、会务、志愿活动等。"
+
+[[items]]
+title = "（示例）审稿"
+subtitle = "（期刊或会议）"
+date = "（年份）"
+content = "简要说明。"
+tags = ["服务"]

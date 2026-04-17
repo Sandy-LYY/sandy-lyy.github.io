@@ -1,0 +1,10 @@
+type = "card"
+title = "教学"
+description = "（可选）课程与助教经历。"
+
+[[items]]
+title = "（示例）课程名称"
+subtitle = "助教"
+date = "（学年）"
+content = "简要说明。"
+tags = ["课程"]

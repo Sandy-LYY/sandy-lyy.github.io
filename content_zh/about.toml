@@ -1,0 +1,22 @@
+type = "about"
+title = "罗雅颖（Sandy）"
+
+[profile]
+research_interests = [
+  "市场研究",
+  "广告营销",
+  "数据驱动增长",
+  "消费者洞察"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于我"
+
+[[sections]]
+id = "news"
+type = "list"
+title = "动态"
+source = "news.toml"

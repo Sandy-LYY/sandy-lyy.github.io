@@ -1,0 +1,22 @@
+type = "about"
+title = "Yaying (Sandy) Luo"
+
+[profile]
+research_interests = [
+  "Market Research",
+  "Advertising & Marketing",
+  "Data-Driven Growth",
+  "Consumer Insight"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"
+
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"

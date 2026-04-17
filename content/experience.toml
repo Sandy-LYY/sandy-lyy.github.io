@@ -1,0 +1,40 @@
+type = "card"
+title = "Experience"
+description = "Internships and practical experience aligned with marketing analyst and market research roles."
+
+[[items]]
+title = "Marketing Intern, Shopline (YY Inc.)"
+subtitle = "Shenzhen · 2024-06 – 2024-09"
+date = "2024-06 – 2024-09"
+image = "/logos/joyy.png"
+content = """
+- Led targeted EDM campaigns for the Australian market through audience segmentation, A/B testing and content-layout optimisation, achieving ~30% CTR.
+- Produced overseas competitor intelligence reports with social listening signals to support go-to-market decisions for cross-border SaaS.
+- Owned end-to-end Douyin content workflow, from scripting and shooting to post-editing and iteration.
+- Co-created brochures, posters and presentation materials for integrated campaigns and offline events.
+- Planned and executed a small-scale Hong Kong salon event with full ownership of venue, guest management, budget and assets.
+"""
+tags = ["Growth Marketing", "EDM", "Market Research"]
+
+[[items]]
+title = "Account Executive Intern"
+subtitle = "Saintland Advertising · 2023-06 – 2023-09"
+date = "2023-06 – 2023-09"
+image = "/logos/iblue.png"
+content = """
+- Built a KOL evaluation framework using CPM, CPE and funnel indicators to support creator selection, resulting in 50+ effective collaborations.
+- Drafted and optimised social media content for P&G brands (aio, Pantene) across Weibo, WeChat Official Account and enterprise WeChat.
+- Reviewed and improved 30+ influencer deliverables to ensure brand consistency and campaign objective alignment.
+- Converted seasonal trends and audience sentiment into actionable briefs, improving campaign clarity and creative direction.
+"""
+tags = ["KOL Strategy", "Data Analysis", "Brand Campaign"]
+
+[[items]]
+title = "Social Media Operator"
+subtitle = "Alpha Times Sports · 2022-07 – 2022-08"
+date = "2022-07 – 2022-08"
+content = """
+- Edited ~20 short videos for Douyin and 3 long videos for Bilibili to promote Canton Tower attractions, with top videos reaching 1,000+ likes.
+- Managed Xiaohongshu content end-to-end (topic selection, copywriting, image editing and publishing), growing single-post likes and saves from single digits to nearly 1,000.
+"""
+tags = ["Social Media", "Content Creation", "Video Editing"]

@@ -1,0 +1,10 @@
+type = "card"
+title = "奖项"
+description = "（可选）奖项与荣誉。"
+
+[[items]]
+title = "（示例）奖学金"
+subtitle = "（单位）"
+date = "（年月）"
+content = "简要说明。"
+tags = ["荣誉"]

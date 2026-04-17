@@ -1,0 +1,4 @@
+type = "publication"
+title = "论文"
+description = "论文列表（来自 publications.bib）。"
+source = "publications.bib"

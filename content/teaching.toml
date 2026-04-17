@@ -1,0 +1,10 @@
+type = "card"
+title = "Teaching"
+description = "（可选）课程与助教经历；若不需要本页，可在 content/config.toml 的 navigation 中加回链接。"
+
+[[items]]
+title = "（示例）课程名称"
+subtitle = "Teaching Assistant"
+date = "（学年）"
+content = "在此用 Markdown 风格写简要说明。"
+tags = ["Course"]

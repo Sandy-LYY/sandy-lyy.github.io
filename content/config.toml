@@ -1,0 +1,58 @@
+[site]
+title = "Sandy Luo"
+description = "Aspiring Marketing Analyst for digital growth and consumer insights."
+favicon = "/favicon.svg"
+last_updated = "April 17, 2026"
+
+[author]
+name = "Yaying (Sandy) Luo"
+title = "Market Research / Advertising & Marketing\nStatus: Seeking Opportunities"
+institution = "University of Bristol"
+avatar = "/avatar.png"
+
+[social]
+email = "luoyaying43@gmail.com"
+location = "Guangdong, China"
+github = "https://github.com/Sandy-LYY"
+linkedin = "https://www.linkedin.com/in/雅颖-罗-3b4443404"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Experience"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"
