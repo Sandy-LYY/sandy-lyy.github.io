@@ -1,18 +1,4 @@
-<style>
-  .cv-download {
-    display: inline-flex; align-items: center; gap: 8px;
-    margin: 8px 0 24px; padding: 10px 24px;
-    font-family: inherit; font-size: 16px;
-    color: #1c2b3a; background: transparent;
-    border: 1.5px solid #1c2b3a; border-radius: 8px;
-    text-decoration: none;
-    transition: background 0.2s ease, color 0.2s ease;
-  }
-  .cv-download:hover { background: #1c2b3a; color: #faf6ea; }
-</style>
-
-<a class="cv-download" href="/cv_lyy_en.pdf" download="Yaying_Luo_CV.pdf">⬇ Download CV (PDF)</a>
-
+[⬇ Download CV (PDF)](/cv_lyy_en.pdf)
 ## Education
 
 ![](/logos/bristol.png)
