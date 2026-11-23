@@ -6,11 +6,13 @@ const error = document.querySelector('#error');
 const launch = document.querySelector('#launch');
 const frame = document.querySelector('#workbench');
 let cleanup;
+let attempt = 0;
 launch.onclick = () => { error.textContent = ''; dialog.showModal(); input.focus(); };
 document.querySelector('#cancel').onclick = () => dialog.close();
-dialog.addEventListener('close', () => { input.value = ''; launch.focus(); });
+dialog.addEventListener('close', () => { attempt++; input.value = ''; launch.focus(); });
 form.onsubmit = async e => {
   e.preventDefault();
+  const currentAttempt = ++attempt;
   const button = form.querySelector('button[type=submit]');
   button.disabled = true; error.textContent = '正在解锁…';
   try {
@@ -21,12 +23,14 @@ form.onsubmit = async e => {
     let files;
     try { files = await decryptBundle(payload, input.value); }
     catch { throw new Error('密码不正确或演示文件损坏，请检查后重试'); }
+    if (currentAttempt !== attempt || !dialog.open) return;
     cleanup = mountBundle(files, frame);
     dialog.close();
     document.querySelector('#welcome').hidden = true;
     document.querySelector('#demo-view').hidden = false;
     frame.focus();
   } catch(e) {
+    if (currentAttempt !== attempt || !dialog.open) return;
     error.textContent = e.message;
     input.focus(); input.select();
   } finally { button.disabled = false; }
