@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+  <title>Demo试验</title><link rel="stylesheet" href="./gate.css">
+</head>
+<body>
+  <main id="welcome"><p class="eyebrow">项目体验</p><h1>Demo试验</h1><p>一个关于团队协同与成长的工作台。</p><button id="launch" type="button">解锁更多惊喜</button><p class="note">使用虚构数据体验，无需飞书账号。</p><a href="/">返回个人主页</a></main>
+  <dialog id="unlock-dialog" aria-labelledby="unlock-title"><form id="unlock-form"><h2 id="unlock-title">解锁更多惊喜</h2><p>输入访问密码，开启 Demo 体验。</p><label for="password">访问密码</label><input id="password" name="password" type="password" inputmode="numeric" autocomplete="off" required><p id="error" role="alert" aria-live="polite"></p><footer><button id="cancel" type="button">取消</button><button type="submit">解锁体验</button></footer></form></dialog>
+  <section id="demo-view" hidden><div class="topbar"><strong>Demo试验</strong><div><a href="/">个人主页</a><button id="lock" type="button">重新锁定</button></div></div><iframe id="workbench" title="PP 团队工作台互动演示"></iframe></section>
+  <script type="module" src="./gate.js"></script>
+</body>
+</html>

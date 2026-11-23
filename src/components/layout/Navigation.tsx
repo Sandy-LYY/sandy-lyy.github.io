@@ -121,7 +121,7 @@ export default function Navigation({
         : pathname.startsWith(item.href));
 
   const getDesktopItemHref = (item: SiteConfig['navigation'][number]) =>
-    enableOnePageMode ? `/#${item.target}` : item.href;
+    enableOnePageMode && item.type !== 'link' ? `/#${item.target}` : item.href;
 
   const activeItem = effectiveItems.find((item) => isDesktopItemActive(item)) ?? null;
   const activeHref = activeItem ? getDesktopItemHref(activeItem) : null;
@@ -219,13 +219,14 @@ export default function Navigation({
                       {effectiveItems.map((item) => {
                         const isActive = isDesktopItemActive(item);
                         const href = getDesktopItemHref(item);
+                        const NavLink = item.type === 'link' ? 'a' : Link;
 
                         return (
-                          <Link
+                          <NavLink
                             key={item.target}
                             href={href}
                             data-nav-href={href}
-                            prefetch={true}
+                            {...(item.type === 'link' ? {} : { prefetch: true })}
                             onClick={() => enableOnePageMode && setActiveHash(`#${item.target}`)}
                             onMouseEnter={() => setHoveredHref(href)}
                             className={cn(
@@ -238,7 +239,7 @@ export default function Navigation({
                             )}
                           >
                             {item.title}
-                          </Link>
+                          </NavLink>
                         );
                       })}
                     </div>
@@ -284,7 +285,7 @@ export default function Navigation({
                           ? pathname === '/'
                           : pathname.startsWith(item.href));
 
-                      const href = enableOnePageMode
+                      const href = enableOnePageMode && item.type !== 'link'
                         ? (item.href === '/' ? '/' : `/#${item.target}`)
                         : item.href;
 
@@ -296,9 +297,9 @@ export default function Navigation({
                           transition={{ delay: index * 0.1 }}
                         >
                           <Disclosure.Button
-                            as={Link}
+                            as={item.type === 'link' ? 'a' : Link}
                             href={href}
-                            prefetch={true}
+                            {...(item.type === 'link' ? {} : { prefetch: true })}
                             onClick={() => enableOnePageMode && setActiveHash(item.href === '/' ? '' : `#${item.target}`)}
                             className={cn(
                               'block px-3 py-2 rounded-md text-base font-medium transition-all duration-200',

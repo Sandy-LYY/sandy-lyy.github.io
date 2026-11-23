@@ -38,3 +38,10 @@ title = "简历"
 type = "page"
 target = "cv"
 href = "/cv"
+
+
+[[navigation]]
+title = "Demo试验"
+type = "link"
+target = "demo-trial"
+href = "/demo-trial/"
