@@ -3,7 +3,7 @@
 
 ![](/logos/bristol.png)
 
-**University of Bristol**，Marketing (Digital)，*2025-09 – 2026-06（预期）*
+**University of Bristol**，Marketing (Digital)，*2025-09 – 2026-12（预期）*
 
 ![](/logos/hkbu-seal.png)
 
